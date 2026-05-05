@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analysis Result</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader">
+    <h2>Analyzing News...</h2>
+    <div class="progress-bar">
+        <div id="progress"></div>
+    </div>
+</div>
+
+<!-- Result -->
+<div id="result" style="display:none;">
+    <h2>Analysis Result</h2>
+
+    <p id="output"></p>
+
+    <h3>Explanation</h3>
+    <p id="explanation"></p>
+
+    <h3>Confidence</h3>
+    <div class="progress-bar">
+        <div id="confidenceBar"></div>
+    </div>
+
+    <h3>Related Image</h3>
+    <img id="newsImage" width="300">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
