@@ -18,18 +18,35 @@
 <div id="result" style="display:none;">
     <h2>Analysis Result</h2>
 
+    <!-- News Details + Result -->
     <p id="output"></p>
 
-    <h3>Explanation</h3>
-    <p id="explanation"></p>
+    <!-- Label -->
+    <h2 id="labelText" style="text-align:center;"></h2>
 
-    <h3>Confidence</h3>
-    <div class="progress-bar">
+    <!-- Trust Score Bar -->
+    <h3>Trust Score</h3>
+    <div class="progress-bar"
+         style="background:#ddd; border-radius:10px; height:30px;">
         <div id="confidenceBar"></div>
     </div>
 
-    <h3>Related Image</h3>
-    <img id="newsImage" width="300">
+    <!-- Real News Verification -->
+    <h3>Real News Verification</h3>
+    <div id="apiVerified" style="margin:10px 0;"></div>
+
+    <!-- Explanation -->
+    <h3>Explanation</h3>
+    <p id="explanation"></p>
+
+    <!-- Buttons -->
+    <br>
+    <button onclick="window.location.href='form.html'">
+        Check Another News
+    </button>
+    <button onclick="window.location.href='dashboard.html'">
+        View Dashboard
+    </button>
 </div>
 
 <script src="script.js"></script>
