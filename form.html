@@ -6,13 +6,29 @@
 </head>
 <body>
 
+<div class="navbar">
+    <h2>🛡️ EchoShield</h2>
+</div>
+
 <div class="form-container">
     <h2>Enter News Details</h2>
 
-    <input type="text" id="title" placeholder="Enter News Title"><br>
-    <textarea id="content" placeholder="Enter News Content"></textarea><br>
+    <input type="text" id="title"
+           placeholder="Enter News Title"><br>
 
-    <button onclick="analyzeNews()">Check News</button>
+    <textarea id="content"
+              placeholder="Enter News Content"></textarea><br>
+
+    <input type="text" id="source"
+           placeholder="Enter News Source (optional)"><br>
+
+    <button onclick="analyzeNews()">🔍 Check News</button>
+
+    <br><br>
+
+    <button onclick="window.location.href='index.html'">
+        ← Back to Home
+    </button>
 </div>
 
 <script src="script.js"></script>
